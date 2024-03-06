@@ -21,6 +21,7 @@ import Organization from "./pages/organization/Organization";
 import SelectOrg from "./pages/organization/SelectOrg";
 import JoinOrg from "./pages/organization/JoinOrg";
 import Profile from "./pages/profile/Profile";
+import NetworkFuncTest from "./pages/network_func_test/network_func_test";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path="/organization?code=:authCode" element={<Organization />} />
             <Route path="/organization/select" element={<SelectOrg />} />
             <Route path="/organization/join" element={<JoinOrg />} />
+            <Route path="/network_func_test" element={<NetworkFuncTest />} />
             {/* <Route
               path="/organization/invite/:invitationId"
               element={<AcceptInvite />}
